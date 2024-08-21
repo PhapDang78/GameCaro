@@ -50,19 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD:GameCaro/GameCaro.csproj
-<<<<<<< HEAD
-    <Compile Include="ChessBoardManager.cs" />
-=======
->>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
-    <Compile Include="Cons.cs" />
-    <Compile Include="Form1.cs">
-=======
     <Compile Include="BtnClickEvent.cs" />
     <Compile Include="Constance.cs" />
     <Compile Include="GameBoard.cs" />
     <Compile Include="GameCaro.cs">
->>>>>>> 48d415be4cf5b9884ef1003c7636adc1574807b8:Game Caro/Game Caro.csproj
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GameCaro.Designer.cs">
@@ -72,18 +63,12 @@
     <Compile Include="PlayInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD:GameCaro/GameCaro.csproj
-<<<<<<< HEAD
-=======
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
->>>>>>> 48d415be4cf5b9884ef1003c7636adc1574807b8:Game Caro/Game Caro.csproj
     <Compile Include="SocketData.cs" />
-=======
->>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
     <Compile Include="SocketManager.cs" />
     <EmbeddedResource Include="GameCaro.resx">
       <DependentUpon>GameCaro.cs</DependentUpon>
@@ -107,60 +92,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD:GameCaro/GameCaro.csproj
-<<<<<<< HEAD
-    <None Include="Resources\P1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\P2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\caro.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\O1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LogoGTVT.jpg" />
-=======
     <None Include="images\logo_kmin.png" />
->>>>>>> 48d415be4cf5b9884ef1003c7636adc1574807b8:Game Caro/Game Caro.csproj
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo Kênh Youtube Logo Vàng và Đen To và Tự hào %282%29.png" />
     <None Include="Resources\Logo Kênh Youtube Logo Vàng và Đen To và Tự hào %281%29.png" />
     <None Include="Resources\Logo Kênh Youtube Logo Vàng và Đen To và Tự hào.png" />
     <None Include="Resources\X.png" />
-<<<<<<< HEAD:GameCaro/GameCaro.csproj
-=======
-    <Content Include="Resources\logocaro.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LogoGTVT.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logouth.png" />
->>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\O.png" />
-  </ItemGroup>
-  <ItemGroup>
-<<<<<<< HEAD
-    <None Include="Resources\caro1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\X1.png" />
-=======
-    <None Include="Resources\X.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logocaro1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logocaro2.jpg" />
->>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
-=======
     <None Include="images\background.jpg" />
     <None Include="images\Quan.jpg" />
     <None Include="images\Lisa.jpg" />
@@ -171,7 +109,6 @@
     <None Include="images\banner UIT.png" />
     <Content Include="images\icon.ico" />
     <None Include="images\three-in-a-row.png" />
->>>>>>> 48d415be4cf5b9884ef1003c7636adc1574807b8:Game Caro/Game Caro.csproj
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

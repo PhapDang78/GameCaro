@@ -78,13 +78,13 @@ F:\LapTrinhMang\final\2 (1)\Game Caro\obj\Debug\Game Caro.csproj.GenerateResourc
 F:\LapTrinhMang\final\2 (1)\Game Caro\obj\Debug\Game Caro.csproj.CoreCompileInputs.cache
 F:\LapTrinhMang\final\2 (1)\Game Caro\obj\Debug\Game Caro.exe
 F:\LapTrinhMang\final\2 (1)\Game Caro\obj\Debug\Game Caro.pdb
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\bin\Debug\Game Caro.exe.config
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\bin\Debug\Game Caro.exe
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\bin\Debug\Game Caro.pdb
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game Caro.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game_Caro.GameCaro.resources
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game_Caro.Properties.Resources.resources
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game Caro.csproj.GenerateResource.cache
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game Caro.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game Caro.exe
-C:\Users\User\Desktop\nháp\2 (2)\Game Caro\obj\Debug\Game Caro.pdb
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\bin\Debug\Game Caro.exe.config
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\bin\Debug\Game Caro.exe
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\bin\Debug\Game Caro.pdb
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game Caro.csproj.AssemblyReference.cache
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game_Caro.GameCaro.resources
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game_Caro.Properties.Resources.resources
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game Caro.csproj.GenerateResource.cache
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game Caro.csproj.CoreCompileInputs.cache
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game Caro.exe
+F:\LapTrinhMang\laptrinhmang\Nhom8-SourceCode\Game Caro\obj\Debug\Game Caro.pdb

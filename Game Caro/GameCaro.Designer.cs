@@ -342,18 +342,18 @@
             // btn_Send
             // 
             this.btn_Send.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Send.BackColor = System.Drawing.Color.Aquamarine;
+            this.btn_Send.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btn_Send.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Send.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btn_Send.FlatAppearance.BorderSize = 0;
             this.btn_Send.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Send.Font = new System.Drawing.Font("Arial", 10.5F, System.Drawing.FontStyle.Bold);
-            this.btn_Send.ForeColor = System.Drawing.Color.Black;
+            this.btn_Send.ForeColor = System.Drawing.Color.White;
             this.btn_Send.Location = new System.Drawing.Point(1204, 789);
             this.btn_Send.Name = "btn_Send";
             this.btn_Send.Size = new System.Drawing.Size(71, 30);
             this.btn_Send.TabIndex = 3;
-            this.btn_Send.Text = "Gởi";
+            this.btn_Send.Text = "Send";
             this.btn_Send.UseVisualStyleBackColor = false;
             this.btn_Send.Click += new System.EventHandler(this.Btn_Send_Click);
             // 

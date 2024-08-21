@@ -8,8 +8,8 @@
         public static int nRows = 22;
         public static int nCols = 40;
 
-        public static int CountDownStep = 100;
-        public static int CountDownTime = 15000;
+        public static int CountDownStep = 150;
+        public static int CountDownTime = 20000;
         public static int CountDownInterval = 100;
     }
 }

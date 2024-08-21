@@ -51,24 +51,18 @@ namespace Game_Caro
 
             board.DrawGameBoard();
         }
-        private bool isGameOver = false;
+
         void EndGame()
         {
-            isGameOver = true; // Đánh dấu trò chơi đã kết thúc
-
             undoToolStripMenuItem.Enabled = false;
             redoToolStripMenuItem.Enabled = false;
 
             btn_Undo.Enabled = false;
             btn_Redo.Enabled = false;
 
-            tm_CountDown.Stop(); // Dừng bộ đếm thời gian
-            pn_GameBoard.Enabled = false; // Vô hiệu hóa bảng chơi
-
-            // Thông báo cho người chơi
-        
+            tm_CountDown.Stop();
+            pn_GameBoard.Enabled = false;
         }
-
 
         private void GameCaro_Load(object sender, EventArgs e)
         {
@@ -342,40 +336,32 @@ namespace Game_Caro
 
         private void ProcessData(SocketData data)
         {
-            // Kiểm tra nếu trò chơi đã kết thúc
-            if (isGameOver) return;
-
             PlayerName = board.ListPlayers[board.CurrentPlayer == 1 ? 0 : 1].Name;
 
             switch (data.Command)
             {
                 case (int)SocketCommand.SEND_POINT:
+                    // Có thay đổi giao diện muốn chạy ngọt phải để trong đây
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        if (!isGameOver) // Kiểm tra lại trước khi xử lý
-                        {
-                            board.OtherPlayerClicked(data.Point);
-                            pn_GameBoard.Enabled = true;
+                        board.OtherPlayerClicked(data.Point);
+                        pn_GameBoard.Enabled = true;
 
-                            pgb_CountDown.Value = 0;
-                            tm_CountDown.Start();
+                        pgb_CountDown.Value = 0;
+                        tm_CountDown.Start();
 
-                            undoToolStripMenuItem.Enabled = true;
-                            redoToolStripMenuItem.Enabled = true;
+                        undoToolStripMenuItem.Enabled = true;
+                        redoToolStripMenuItem.Enabled = true;
 
-                            btn_Undo.Enabled = true;
-                            btn_Redo.Enabled = true;
-                        }
+                        btn_Undo.Enabled = true;
+                        btn_Redo.Enabled = true;
                     }));
                     break;
 
                 case (int)SocketCommand.SEND_MESSAGE:
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        if (!isGameOver) // Kiểm tra lại trước khi xử lý
-                        {
-                            txt_Chat.Text += data.Message + "\r\n"; // Cập nhật lịch sử chat với tin nhắn mới
-                        }
+                        txt_Chat.Text += data.Message + "\r\n"; // Cập nhật lịch sử chat với tin nhắn mới
                     }));
                     break;
 
@@ -390,36 +376,32 @@ namespace Game_Caro
                 case (int)SocketCommand.UNDO:
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        if (!isGameOver) // Kiểm tra lại trước khi xử lý
-                        {
-                            pgb_CountDown.Value = 0;
-                            board.Undo();
-                        }
+                        pgb_CountDown.Value = 0;
+                        board.Undo();
                     }));
                     break;
 
                 case (int)SocketCommand.REDO:
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        if (!isGameOver) // Kiểm tra lại trước khi xử lý
-                        {
-                            board.Redo();
-                        }
+                        // pgb_CountDown.Value = 0;
+                        board.Redo();
                     }));
                     break;
 
                 case (int)SocketCommand.END_GAME:
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        EndGame(); // Gọi hàm EndGame để vô hiệu hóa trò chơi
-                        socket.CloseConnect(); // Đóng kết nối
+                        EndGame();
+                   
                     }));
                     break;
 
                 case (int)SocketCommand.TIME_OUT:
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        EndGame(); // Gọi hàm EndGame để vô hiệu hóa trò chơi
+                        EndGame();
+             
                     }));
                     break;
 
@@ -427,12 +409,12 @@ namespace Game_Caro
                     this.Invoke((MethodInvoker)(() =>
                     {
                         tm_CountDown.Stop();
-                        EndGame(); // Gọi hàm EndGame để vô hiệu hóa trò chơi
-
+                        EndGame();
+                    
                         board.PlayMode = 2;
                         socket.CloseConnect();
 
-                        MessageBox.Show("Đối thủ đã rời khỏi trò chơi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Đối thủ đã chạy mất dép", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }));
                     break;
 
@@ -440,10 +422,8 @@ namespace Game_Caro
                     break;
             }
 
-            Listen(); // Tiếp tục lắng nghe dữ liệu
+            Listen();
         }
-
-
         #endregion
 
         #endregion
