@@ -121,16 +121,20 @@
   <data name="O" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\O.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="Uth" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Uth.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="caro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caro.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+=======
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
   <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LogoGTVT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+<<<<<<< HEAD
     <value>..\Resources\LogoGTVT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X1" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -144,5 +148,26 @@
   </data>
   <data name="Uth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Uth1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+    <value>..\Resources\LogoGTVT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoGTVT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoGTVT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logouth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logouth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logocaro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logocaro2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logocaro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logocaro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logocaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logocaro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoGTVT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoGTVT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
   </data>
 </root>

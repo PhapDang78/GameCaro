@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="ChessBoardManager.cs" />
+=======
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
     <Compile Include="Cons.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -58,7 +61,10 @@
     <Compile Include="PlayInfor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="SocketData.cs" />
+=======
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
     <Compile Include="SocketManager.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -87,6 +93,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\P1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -103,15 +110,34 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\X.png" />
+=======
+    <Content Include="Resources\logocaro.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoGTVT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logouth.png" />
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\O.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\caro1.ico" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\X1.png" />
+=======
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logocaro1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logocaro2.jpg" />
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

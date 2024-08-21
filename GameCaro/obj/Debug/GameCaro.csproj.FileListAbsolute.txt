@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:\Gamecaro\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
 E:\Gamecaro\GameCaro\GameCaro\bin\Debug\GameCaro.exe
 E:\Gamecaro\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
@@ -8,3 +9,15 @@ E:\Gamecaro\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
 E:\Gamecaro\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
 E:\Gamecaro\GameCaro\GameCaro\obj\Debug\GameCaro.exe
 E:\Gamecaro\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+=======
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+D:\lap trinh mang\baitaplon\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+>>>>>>> 8713793272f8aa5ea872973e7f0c26d73427e4e7
